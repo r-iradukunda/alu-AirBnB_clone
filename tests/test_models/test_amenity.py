@@ -2,12 +2,18 @@
 """Unit test for the file storage class
 """
 import unittest
+
 # import json
 import pep8
+
 from models import amenity
+
 from models.amenity import Amenity
+
 from models.base_model import BaseModel
+
 from models import storage
+
 import os
 
 
